@@ -60,6 +60,10 @@ nav{
     border: 2px solid blue;
 }
 
+header .fa-bars{
+    display: none;
+}
+
 
 /* Content */
 

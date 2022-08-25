@@ -1,0 +1,171 @@
+@media screen and (max-width: 1340px) {
+    header .fa-bars{
+        display: block;
+        margin-right: 5rem;
+        font-size: 2rem;
+    }
+
+    nav{
+        display: none;
+    }
+
+    .content-heading, .content2-heading{
+        width: 100%;
+        font-size: 3rem;
+    }
+
+    .content-description{
+        width: 90%;
+    }
+
+    .content-btn{
+    width: 40%;
+    }
+
+    .antivirus-img, .database-img, .customercare-img{
+        width: 500px;
+    }
+
+    .service-heading{
+        font-size: 3rem;
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .content>div{
+        height: auto;
+    }
+
+    .content-1{
+        flex-direction: column;
+    }
+
+    .content-2{
+        flex-direction: column-reverse;
+    }
+
+    .con-left-side, .con2-right-side{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content-heading, .content2-heading{
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .content-description{
+        width: 80%;
+    }
+
+    .content-btn{
+        width: 30%;
+    }
+
+    .service-top{
+    flex-direction: column;
+    gap: 2rem;
+    }
+
+    .service-heading{
+        font-size: 3rem;
+        width: 80%;
+        text-align: center;
+        padding: 0;
+    }
+
+    .service-description{
+        width: 60%;
+        font-size: 1rem;
+
+    }
+
+    /* Service Bottom */
+
+    .service-bottom{
+        width: 70%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 4rem;
+    }
+
+    .pricing-heading{
+        font-size: 3rem;
+    }
+
+    .price-cards{
+        height: auto;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .price-card{
+        height: 650px;
+    }
+
+    /* <!-- FAQ SECTION --> */
+
+    .faq-section{
+        margin: 150px 0;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+        padding: 100px;
+        text-align: center;
+    }
+
+
+    /* !-- Footer --> */
+    .footer-section li{
+        list-style: none;
+    }
+
+    .footer-section{
+        height: 250px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 782px) {
+
+     /* Service Bottom */
+
+     .service-bottom{
+        width: 50%;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 4rem;
+    }
+
+    .price-cards{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .price-card{
+    width: 400px;
+    margin: 0 auto;
+    }
+
+    /* <!-- Blog section --> */
+
+    .blog-heading{
+        font-size: 2.5rem;
+    }
+
+    .blog-cards{
+        grid-template-columns: 1fr;
+    }
+
+    /* !-- Footer --> */
+
+    .footer-section{
+        height: auto;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        gap: 2rem;
+    }
+}
